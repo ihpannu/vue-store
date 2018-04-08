@@ -1,6 +1,6 @@
 {
-  "name": "social",
-  "short_name": "social",
+  "name": "vuestore",
+  "short_name": "vuestore",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
