@@ -4,9 +4,8 @@
 
     <div>
       <form @submit.prevent >
-        <input type="text" v-model="value">
+        <input type="text" v-model="value" v-validate="'required'"  >
 
-        <br>
       </form>
       <h2>
         {{value}}
