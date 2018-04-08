@@ -22,6 +22,7 @@
   display: flex;
   background: #2c3e50;
   a {
+    font-size: 1.25rem;
     font-weight: bold;
     color: #ffffff;
     margin: 0 10px;
@@ -29,5 +30,21 @@
       color: #4fd196;
     }
   }
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
 }
 </style>
