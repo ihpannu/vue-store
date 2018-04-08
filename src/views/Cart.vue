@@ -1,12 +1,17 @@
 <template>
 <div>
-    <h1>{{title}}</h1>
+    <h1> {{title}} </h1>
+    <h2>This is cart page</h2>
 </div>
 </template>
+
 <script>
 export default {
-  data: {
-    title: 'This is an cart'
+  name: "cart",
+  data() {
+    return {
+      title: "Cart Page"
+    };
   }
 };
 </script>
