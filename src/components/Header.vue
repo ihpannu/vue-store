@@ -6,15 +6,12 @@
 
 <script>
 export default {
-  name: `Hello World`,
+  name: `heading`,
   data() {
     return {
       msg: "Welcome to vue App"
     };
   }
-  // props: {
-  //   msg: String
-  // }
 };
 </script>
 

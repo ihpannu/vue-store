@@ -15,13 +15,15 @@
 <style lang="scss" scoped>
 .admin {
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: space-between;
   margin: 2rem 0;
   .product {
+    width: 20%;
     ul {
       display: flex;
       flex-direction: column;
+
       // background: #43505d;
       a {
         padding: 0.8rem 1.5rem;
@@ -35,7 +37,8 @@
     }
   }
   .router-view {
-    padding-right: 2rem;
+    width: 70%;
+    margin-right: 2rem;
   }
 }
 </style>
